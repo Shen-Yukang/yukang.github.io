@@ -1,6 +1,8 @@
 // src/App.jsx
 import "../App.css";
 import { useNavigate } from 'react-router-dom'
+
+
 import { publications,researchProjects } from "../libs/config";
 function App() {
   const navigate = useNavigate()
@@ -13,7 +15,7 @@ function App() {
       <header className="hero">
         {/* 左侧头像 */}
         <div className="hero-photo">
-          <img src="/yukang.jpg" alt="Yukang Shen" />
+          <img src="yukang.jpg" alt="Yukang Shen" />
         </div>
 
         {/* 右侧文字块 */}

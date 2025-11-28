@@ -41,7 +41,7 @@ export const MedicalAIProject = {
   ],
 
   methods: {
-    pipelineImage: "/images/data_engine_pipeline.png",
+    pipelineImage: "images/data_engine_pipeline.png",
     steps: [
       "Cold-start filtering and task definition.",
       "Controlled T2I synthesis with pose, BMI, clothing, and lighting constraints.",
@@ -51,30 +51,6 @@ export const MedicalAIProject = {
     ],
   },
 
-  results: {
-    metricHighlights: [
-      {
-        label: "Segmentation IoU",
-        value: "+XX%",
-        desc: "Improvement over real-only baseline with minimal real labels",
-      },
-      {
-        label: "MAPE (Safe-Zone Error)",
-        value: "< 8%",
-        desc: "Reliable anthropometric localization",
-      },
-      {
-        label: "Real Labels Needed",
-        value: "Very few",
-        desc: "Achieves real-level performance with minimal supervision",
-      },
-    ],
-    evaluationImages: [
-      "/images/eval-performance.png",
-      "/images/eval-domain-gap.png",
-      "/images/eval-safetyband.png",
-    ],
-  },
 
   contact: {
     email: "yshen4@students.kennesaw.edu",

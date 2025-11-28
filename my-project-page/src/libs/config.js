@@ -32,7 +32,7 @@ const researchProjects = [
     ],
     media: {
       type: "image",
-      src: "/overall_architecture.png",
+      src: "overall_architecture.png",
       alt: "Deltoid injection perception pipeline",
     },
   },
@@ -54,7 +54,7 @@ const researchProjects = [
     ],
     media: {
       type: "image",
-      src: "/overall_architecture.png",
+      src: "overall_architecture.png",
       alt: "Deltoid injection perception pipeline",
     },
   },
@@ -71,7 +71,7 @@ const publications = [
     url: "https://arxiv.org/abs/2204.06192",
     media: {
       type: "image",
-      src: "/overall_architecture.png",
+      src: "overall_architecture.png",
       alt: "JCIN journal cover",
     },
   },

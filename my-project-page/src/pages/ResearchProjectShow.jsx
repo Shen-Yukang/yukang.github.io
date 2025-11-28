@@ -36,17 +36,17 @@ const medicalAIProject = {
     ],
     images: [
       {
-        src: "/bg_data_collection_issue1.png",
+        src: "bg_data_collection_issue1.png",
         alt: "Clinical data collection limitations",
         caption: "Limited real injection data due to privacy and clinical workflow constraints."
       },
       {
-        src: "/bg_data_collection_issue2.png",
+        src: "bg_data_collection_issue2.png",
         alt: "Lighting and pose variation",
         caption: "Inconsistent lighting, arm posture, and occlusions affect data quality."
       },
       {
-        src: "/bg_data_labeling_issue.png",
+        src: "bg_data_labeling_issue.png",
         alt: "Annotation burden",
         caption: "Expert labeling is costly and difficult to scale for medical datasets."
       }
@@ -71,22 +71,22 @@ const medicalAIProject = {
 
   resultsImages: [
     {
-      src: "/result1.png",
+      src: "result1.png",
       alt: "Performance across synthetic-only datasets",
       caption: "Figure 7. Performance across synthetic-only datasets of varying sizes (50–345).",
     },
     {
-      src: "/result2.png",
+      src: "result2.png",
       alt: "Core metrics on synthetic dataset",
       caption: "Figure 12. Performance effect of mixed synthetic-real training.",
     },
     {
-      src: "/result3.png",
+      src: "result3.png",
       alt: "Gap between real-test and synthetic-test evaluation",
       caption: "Figure 9. Gap between real-test and synthetic-test evaluation.",
     },
     {
-      src: "/result4.png",
+      src: "result4.png",
       alt: "Relationship between task success and IoU",
       caption: "Figure 10. Relationship between task success and IoU.",
     },

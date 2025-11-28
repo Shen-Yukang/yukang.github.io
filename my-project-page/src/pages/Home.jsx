@@ -134,7 +134,7 @@ function App() {
           <h2>Publications</h2>
           <ul className="pub-list">
             {publications.map((p) => (
-              <li key={p.title} className="pub-item" onClick={()=>link(p.url)}>
+              <a key={p.title} className="pub-item" href={p.url}>
                 <div className="pub-main">
                   <span className="pub-year">{p.year}</span>
                   <div className="pub-title">{p.title}</div>
@@ -150,7 +150,7 @@ function App() {
                     />
                   )}
                 </div>
-              </li>
+              </a>
             ))}
           </ul>
           {/* 以后有更多论文，就按这个结构往 publications 数组里加即可 */}

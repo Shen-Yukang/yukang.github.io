@@ -6,6 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   // base: '/my-project-page/',
+   base: '/yukang.github.io/',
   plugins: [
     tailwindcss(),
     react({

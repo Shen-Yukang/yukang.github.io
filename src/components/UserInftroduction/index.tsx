@@ -39,6 +39,15 @@ const HeroInroductionAcdemic = () => {
           >
             {ResearchInterest}
           </ReactMarkdown>
+
+          <p className="mt-2 text-sm text-slate-800">
+            <span className="text-indigo-700 font-medium">
+              I am currently seeking Ph.D. opportunities
+            </span>{" "}
+            in high-precision spatial perception, physics-informed sensing, and
+            embodied intelligence for real-world medical and healthcare
+            applications. - "{new Date().toLocaleDateString()}"
+          </p>
         </p>
 
         {/* 链接区域 */}
